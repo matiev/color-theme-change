@@ -22,7 +22,8 @@ window.addEventListener('change', () => {
 
 window.addEventListener('DOMContentLoaded', () => {
   if (!localStorage.getItem('data-theme') || localStorage.getItem('data-theme') === 'light') {
-    document.documentElement.setAttribute('data-theme', localStorage.getItem('data-theme'));
+    // document.documentElement.setAttribute('data-theme', localStorage.getItem('data-theme'));
+    document.documentElement.setAttribute('data-theme', 'light');
     input.checked = false;
   }
   else {    

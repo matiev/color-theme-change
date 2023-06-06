@@ -1,7 +1,7 @@
-html {
+/* html {
   --bg: white;
   --header: black;
-}
+} */
 html[data-theme='light']{  
   --bg: white;
   --header: black;
