@@ -6,5 +6,4 @@
 
 
 
-
 <h3 align="center">With css transition. Transition disabled for first load page.</h3>
